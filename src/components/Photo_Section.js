@@ -7,7 +7,7 @@ function Photo(props) {
     return(
         <div>
             <h2>{props.title}</h2>
-            <image src = {props.url} />
+            <img src = {props.url} />
             <p>{props.date}</p>
             <p>{props.explanation}</p>
         </div>
